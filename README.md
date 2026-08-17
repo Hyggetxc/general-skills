@@ -1,6 +1,6 @@
-# Codex General Skills
+# General Skills
 
-General-purpose Codex skills for source-backed research, plain-language rewriting, skill design, and guided teaching workspaces.
+General-purpose skills for source-backed research, plain-language rewriting, skill design, and guided teaching workspaces.
 
 These skills are intentionally not tied to any company, product, private repository, or domain-specific workflow.
 
@@ -18,10 +18,10 @@ These skills are intentionally not tied to any company, product, private reposit
 Clone the repository:
 
 ```bash
-git clone https://github.com/Hyggetxc/codex-general-skills.git
+git clone https://github.com/Hyggetxc/general-skills.git
 ```
 
-Copy the skills you want into your Codex skills directory:
+Copy the skills you want into your skills directory:
 
 ```bash
 mkdir -p ~/.codex/skills
@@ -50,7 +50,7 @@ cp -R teach "<project>/.codex/skills/"
 
 ## Validation
 
-Validate a skill with Codex's skill validator if available:
+Validate a skill with the skill validator if available:
 
 ```bash
 python3 ~/.codex/skills/.system/skill-creator/scripts/quick_validate.py source-research
