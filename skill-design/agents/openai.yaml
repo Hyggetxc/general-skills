@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Design"
+  short_description: "设计和审查本地 skill"
+  default_prompt: "使用 $skill-design 审查这个 skill 是否触发准确、单一权威且验证完整。"

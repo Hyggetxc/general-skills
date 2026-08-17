@@ -1,0 +1,4 @@
+interface:
+  display_name: "Human Language"
+  short_description: "把内容改成说人话"
+  default_prompt: "使用 $human-language 把这段内容改成中文、直接、可执行的人话表达。"
