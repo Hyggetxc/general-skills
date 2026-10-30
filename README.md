@@ -8,9 +8,9 @@ These skills are intentionally not tied to any company, product, private reposit
 
 | Skill | Purpose |
 | --- | --- |
-| `source-research` | Check facts with reliable sources and report evidence boundaries. |
-| `human-language` | Rewrite abstract, formal, technical, or AI-like content into plain, direct language without changing the facts. |
-| `skill-design` | Create, update, rename, review, or refactor local Codex skills and skill repositories. |
+| `source-research` | Check facts with primary sources and report evidence boundaries without making business decisions. |
+| `human-language` | Rewrite content in plain Chinese while preserving facts and terminology; review-only requests do not trigger a rewrite, and code or structured data stays unchanged. |
+| `skill-design` | Create, update, or audit skills, routing, metadata, and checks; verify source-to-runtime synchronization and require explicit authorization before publishing. |
 | `teach` | Run a stateful learning workspace with missions, resources, lessons, reference documents, and learning records. |
 
 ## Install
@@ -47,6 +47,7 @@ cp -R teach "<project>/.codex/skills/"
 - Do not add private business logic, client names, internal repository paths, credentials, tokens, or environment-specific workflow rules.
 - Put project-specific rules in that project's `AGENTS.md`, SOP, or project-local skill instead.
 - Before publishing changes, run structure validation and scan for sensitive local content.
+- Existing project glossaries or knowledge bases are optional context, not bundled dependencies. No additional skill is required for terminology maintenance.
 
 ## Validation
 

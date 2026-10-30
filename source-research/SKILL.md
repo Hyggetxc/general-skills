@@ -1,6 +1,6 @@
 ---
 name: source-research
-description: Use when a question needs fact-checking, current information, official documentation, primary-source research, source-backed comparison, or a reusable Markdown evidence note outside or before product requirements work.
+description: Use when fact-checking or researching current information with primary sources; not for making business decisions.
 ---
 
 # 一手来源查证
@@ -44,5 +44,5 @@ description: Use when a question needs fact-checking, current information, offic
 
 1. 不写 PRD。
 2. 不做业务取舍。
-3. 不维护术语表；术语归一使用 `business-glossary`。
+3. 不维护术语表；术语归一交由项目已有术语库或术语维护流程处理。
 4. 不代替法律、财务、医疗等高风险专业意见。
